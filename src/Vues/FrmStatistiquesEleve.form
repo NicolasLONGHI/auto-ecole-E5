@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="title" type="java.lang.String" value="Auto NMN"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosing"/>
+    <EventHandler event="windowOpened" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowOpened"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="lblTitre" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="lblNbLecons" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblLeconsFinies" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblLeconsFutures" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblMontantTotal" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblMontantPasRegle" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="lblLogoRetour" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblRetour" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblMontantRegle" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txtLeconsFinies" min="-2" pref="130" max="-2" attributes="0"/>
+                          <Component id="txtNbLecons" min="-2" pref="130" max="-2" attributes="0"/>
+                          <Component id="txtLeconsFutures" min="-2" pref="130" max="-2" attributes="0"/>
+                          <Component id="txtMontantTotal" min="-2" pref="130" max="-2" attributes="0"/>
+                          <Component id="txtMontantPasRegle" min="-2" pref="130" max="-2" attributes="0"/>
+                          <Component id="txtMontantRegle" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+              <Component id="lblTitre" min="-2" pref="43" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblNbLecons" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNbLecons" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtLeconsFinies" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblLeconsFinies" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtLeconsFutures" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblLeconsFutures" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblMontantTotal" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtMontantTotal" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblMontantPasRegle" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtMontantPasRegle" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtMontantRegle" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblMontantRegle" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="48" max="32767" attributes="0"/>
+                      <Component id="lblRetour" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="lblLogoRetour" min="-2" pref="25" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblNbLecons">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total de le&#xe7;ons"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNbLecons">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtLeconsFinies">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLeconsFinies">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Le&#xe7;ons d&#xe9;j&#xe0; effectu&#xe9;es"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLeconsFutures">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Le&#xe7;ons &#xe0; faire"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtLeconsFutures">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMontantTotal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Montant total"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMontantTotal">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMontantPasRegle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Montant &#xe0; r&#xe9;gler"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMontantPasRegle">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMontantRegle">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMontantRegle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Montant d&#xe9;j&#xe0; r&#xe9;gl&#xe9;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitre">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="28" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Statistiques"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRetour">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="33" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Retour"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblRetourMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLogoRetour">
+      <Properties>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[25, 25]"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblLogoRetourMouseClicked"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
